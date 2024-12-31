@@ -123,7 +123,7 @@ class LinkedInSearcher:
         self.driver, windows = self.linkdin_window()
         self.driver.switch_to.window(windows[0])
 
-        for index, row in df_pdf_data[:100].iterrows():
+        for index, row in df_pdf_data[:].iterrows():
             website = str(row['Website'])
             print(website)
             time.sleep(random.uniform(15, 20))
