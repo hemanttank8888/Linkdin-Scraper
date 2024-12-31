@@ -1,0 +1,8 @@
+flask
+flask-cors
+selenium
+openpyxl
+webdriver-manager
+tldextract
+pandas
+aiofiles
