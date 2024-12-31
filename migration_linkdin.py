@@ -63,12 +63,12 @@ class LinkedInSearcher:
         email_input = WebDriverWait(self.driver, 10).until(
             EC.visibility_of_element_located((By.XPATH, '//input[@aria-label="Email or phone"]'))
         )
-        email_input.send_keys('mohsin.pathan@transformsolution.net')
+        email_input.send_keys('#######################################')
         time.sleep(random.randint(5, 10))
         password_input = WebDriverWait(self.driver, 10).until(
             EC.visibility_of_element_located((By.XPATH, '//input[@aria-label="Password"]'))
         )
-        password_input.send_keys('Transform@123')
+        password_input.send_keys('####################################')
         time.sleep(random.randint(5, 10))
         login_button = WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable((By.XPATH, '//button[@aria-label="Sign in"]'))
